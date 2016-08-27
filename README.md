@@ -19,7 +19,6 @@ http://pages.uoregon.edu/palandri/data/Supcrt92.zip
 [PC]=>[ローカルディスク(C:)]=>[Program Files]=>[mingw-w64]=>[x86_64-5.2.0-posix-seh-rt_v4-rev1]を開く。  
 この中にあるmingw-w64.batをSupcrt92フォルダの中にコピーする。
 
-一応Fortranが動くことを確認しておく。
 コマンドプロンプト(コルタナさんに"cmd"と聞くとよい)で  
 
 ```
@@ -30,6 +29,14 @@ http://pages.uoregon.edu/palandri/data/Supcrt92.zip
 
 とすると、Atomでmingw-w64.batが編集できる。
 5行目のcd "C:\"を削除して保存。
+
+さて、コマンドプロンプトに戻って  
+
+```
+mingw-w64.bat
+```
+
+とするとFortranが起動される。  
 
 ```
 >gfortran
