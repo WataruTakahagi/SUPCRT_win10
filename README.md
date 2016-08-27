@@ -13,10 +13,10 @@ http://pages.uoregon.edu/palandri/data/Supcrt92.zip
 
 コマンドプロンプト(コルタナさんに"cmd"と聞くとよい)で  
 
-'''
+```
 >cd Downloads  
 >cd Supcrt92  
-'''
+```
 
 一応Fortranが動くことを確認しておくと、  
 これで準備は完了。
