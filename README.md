@@ -13,6 +13,6 @@ http://pages.uoregon.edu/palandri/data/Supcrt92.zip
 
 コマンドプロンプト(コルタナさんに"cmd"と聞くとよい)で
 '''
->cd Downloads
->cd Supcrt92
+>cd Downloads  
+>cd Supcrt92  
 '''
