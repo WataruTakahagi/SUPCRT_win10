@@ -28,9 +28,10 @@ http://pages.uoregon.edu/palandri/data/Supcrt92.zip
 ```
 
 とすると、Atomでmingw-w64.batが編集できる。
-5行目のcd "C:\"を削除して保存。
+5行目のcd "C:\"を削除して保存。  
+mingw-w64.batは以下のようになる。  
 
-```bat:mingw-w64.bat
+```bat
 echo off
 set PATH=C:\Program Files\mingw-w64\x86_64-6.2.0-posix-seh-rt_v5-rev0\mingw64\bin;%PATH%
 rem echo %PATH%
