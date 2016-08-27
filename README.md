@@ -9,7 +9,7 @@ https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 Architectureをx86_64にする他はひたすらNextでとりあえず問題ない。
 
 Fortranのテキストエディタは個人的にはAtomがおすすめなのでインストール。  
-https://atom.io/
+https://atom.io/  
 language-fortranというパッケージを入れておく。  
 
 続いてSUPCRT92をダウンロード。  
