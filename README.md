@@ -8,15 +8,29 @@ https://sourceforge.net/projects/mingw-w64/files/?source=navbar
 ※こちらから直接ダウンロードも可能 https://sourceforge.net/projects/mingw-w64/files/latest/download?source=file (64bit)  
 Architectureをx86_64にする他はひたすらNextでとりあえず問題ない。
 
+一応Fortranが動くことを確認しておく。
+コマンドプロンプト(コルタナさんに"cmd"と聞くとよい)で  
+
+```
+>gfortran
+```
+
+と打って
+
+```
+gfortran: fatal error: no input files
+```
+
+となればOK。  
+
 続いてSUPCRT92をダウンロード。  
 http://pages.uoregon.edu/palandri/data/Supcrt92.zip
 
-コマンドプロンプト(コルタナさんに"cmd"と聞くとよい)で  
+
 
 ```
 >cd Downloads  
 >cd Supcrt92  
 ```
 
-一応Fortranが動くことを確認しておくと、  
 これで準備は完了。
