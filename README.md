@@ -58,3 +58,21 @@ gfortran: fatal error: no input files
 ```
 
 となればOK。  
+
+SUPCRT92のREADMEに従って進めていく。  
+まずはCPRONS92をコンパイル。  
+
+```
+>gfortran -o CPRONS92.exe CPRONS92.FOR
+```
+
+実はこれでもう動く。  
+
+```
+>CPRONS92.exe
+```
+
+
+
+
+
